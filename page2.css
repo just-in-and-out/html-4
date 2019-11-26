@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Boxmodel</title>
+  <style>
+  div.menu {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+  }
+  nav {
+    background-color: black;
+    color: white;
+  }
+  nav a {
+  color: white ;
+  }
+  table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: middle;
+  }
+  th#t01{
+    background-color: lightgreen;
+  }
+  th#t02{
+    background-color: lightblue;
+  }
+  table{
+    style="width: 50%; height: 50%"
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  header{
+  }
+  article{
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  section{
+
+  }
+  section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
